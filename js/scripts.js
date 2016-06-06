@@ -6,7 +6,23 @@ $(window).load(function() {
 });
 
 $(document).ready(function() {
+  var files = ['thumb_BGYU3857_1024.jpg','thumb_BHNW5371_1024.jpg','thumb_BLFY5395_1024.jpg','thumb_BYJJ5263_1024.jpg','thumb_DAYZ7547_1024.jpg','thumb_DRJP6142_1024.jpg','thumb_FPCS2125_1024.jpg','thumb_FTQO6744_1024.jpg','thumb_GIKK8483_1024.jpg','thumb_GQMF3160_1024.jpg','thumb_IMGX8872_1024.jpg','thumb_IYEB3220_1024.jpg','thumb_JAWM7937_1024.jpg','thumb_KDDU0770_1024.jpg','thumb_LBGQ2093_1024.jpg','thumb_NOZI3158_1024.jpg','thumb_NSSY9841_1024.jpg','thumb_NVFC2778_1024.jpg','thumb_RNEZ0091_1024.jpg','thumb_SOZZ5537_1024.jpg','thumb_TKDZ9805_1024.jpg','thumb_TVIA7417_1024.jpg','thumb_UUSK1423_1024.jpg','thumb_VEYR4547_1024.jpg','thumb_VOOG6636_1024.jpg','thumb_VVBY8533_1024.jpg','thumb_XESV3564_1024.jpg','thumb_YELG9285_1024.jpg' ];
 
+  var $gallery = $('#owl-gallery');
+
+  files.forEach(function(file) {
+    var small = './images/gallery/thumbs/' + file;
+    var big = './images/gallery/big/' + file;
+    var item = '\
+    <div class="item">\
+      <div class="image">\
+        <a href="'+big+'" data-rel="lightcase:mw-gallery">\
+          <img src="'+small+'" alt="">\
+        </a>\
+      </div>\
+    </div>';
+    $gallery.append(item);
+  });
   // 01. Prevent empty links scroll to top default functionality
   /* <![CDATA[ */
   ( function( $ ) {
