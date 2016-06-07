@@ -337,7 +337,7 @@ footer {
 
 .image-header {
   min-height: 680px;
-  background-image: url("../images/header-couple.jpg");
+  background-image: url("../images/head-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0; }
@@ -1197,7 +1197,7 @@ input[type=text] {
 
 @media only screen and (max-width: 480px) {
   .video-header {
-    background-image: url("../images/header-couple.jpg");
+    background-image: url("../images/head-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 0; }
@@ -1210,19 +1210,20 @@ input[type=text] {
     .voucher-item i {
       top: 12px;
       font-size: 14px; }
-  .countdown div p {
-    font-size: 30px;
-    margin: 4px 4px 0 4px; }
-  .countdown div span {
-    margin: 0 4px 4px; } }
+  .countdown div {
+    width: 30%;
+    margin-bottom: 10px; }
+    .countdown div p {
+      font-size: 30px;
+      margin: 4px 4px 0 4px; }
+    .countdown div span {
+      margin: 0 4px 4px; } }
 
 @media only screen and (max-width: 992px) {
   .bride img {
     width: 100%; }
   .groom img {
     width: 100%; }
-  .timeline .timeline-panel {
-    width: 44%; }
   .countdown div p {
     font-size: 48px;
     margin: 10px 10px 0 10px; }

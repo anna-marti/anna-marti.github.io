@@ -385,7 +385,7 @@ footer {
 }
 .image-header {
 	min-height: 680px;
-	background-image: url('../images/header-couple.jpg');
+	background-image: url('../images/head-bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 0;
@@ -1428,7 +1428,7 @@ input[type=text] {
 }
 @media only screen and (max-width: 480px) {
 	.video-header {
-		background-image: url('../images/header-couple.jpg');
+		background-image: url('../images/head-bg.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: 50% 0;
@@ -1452,6 +1452,8 @@ input[type=text] {
 	}
 	.countdown {
 		div {
+			width: 30%;
+			margin-bottom: 10px;
 			p {
 				font-size: 30px;
 				margin: 4px 4px 0 4px;
@@ -1473,11 +1475,12 @@ input[type=text] {
 			width: 100%;
 		}
 	}
-	.timeline {
-		.timeline-panel {
-			width: 44%;
-		}
-	}
+	// .timeline {
+	// 	.timeline-panel {
+	// 		width: 44%;
+	// 	}
+	// }
+	//
 	.countdown {
 		div {
 			p {
