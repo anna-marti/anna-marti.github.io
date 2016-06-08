@@ -169,7 +169,7 @@ $(document).ready(function() {
       var $this = $(this), finalDate = $(this).data('countdown');
       $this.countdown(finalDate, function(event) {
         $this.html(event.strftime(
-          '<div><p>%w</p><span>Weeks</span></div><div><p>%D</p><span>Days</span></div><div><p>%H</p><span>Hours</span></div><div><p>%M</p><span>Minutes</span></div><div><p>%S</p><span>Seconds</span></div>'
+          '<div><p>%w</p><span>Setmanes</span></div><div><p>%D</p><span>Dies</span></div><div><p>%H</p><span>Hores</span></div><div><p>%M</p><span>Minuts</span></div><div><p>%S</p><span>Seconds</span></div>'
         ));
       });
     });
