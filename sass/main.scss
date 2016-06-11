@@ -1277,6 +1277,17 @@ input[type=text] {
 	background-size: contain;
 	margin-top: 30px;
 }
+
+#contact {
+	text-align: center;
+
+	ul, li {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	h1 {
 		font-size: 42px;
