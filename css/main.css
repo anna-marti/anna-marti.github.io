@@ -593,7 +593,8 @@ footer {
   margin: 0 0 30px;
   color: #6a6a6a; }
   .people-item img {
-    width: 100%; }
+    width: 100%;
+    min-height: 219px; }
   .people-item .description {
     padding: 26px 0 22px 26px; }
     .people-item .description h2 {
